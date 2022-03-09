@@ -1,4 +1,4 @@
-# Bootcamp-WomanDeveloperCarrefour 👩‍💻
+# Bootcamp-WomanDeveloperCarrefour 👩🏼‍💻
 
 ## Seja bem-vindo
 
