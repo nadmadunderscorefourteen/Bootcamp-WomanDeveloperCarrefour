@@ -1,9 +1,9 @@
 namespace DesafioDeProjeto.src.entities
 {
-    public class WhiteWizard : Character
+    public class Wizard : Character
     {
 
-        public WhiteWizard(string Name, string OpponentName, int Level, string HeroType)
+        public Wizard(string Name, string OpponentName, int Level, string HeroType)
         : base(Name, OpponentName, Level, HeroType) {
     
         }
