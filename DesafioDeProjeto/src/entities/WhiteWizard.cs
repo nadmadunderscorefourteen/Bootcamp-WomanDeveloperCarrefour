@@ -1,9 +1,9 @@
 namespace DesafioDeProjeto.src.entities
 {
-    public class Knight : Character
+    public class WhiteWizard : Character
     {
 
-        public Knight(string Name, string OpponentName, int Level, string HeroType)
+        public WhiteWizard(string Name, string OpponentName, int Level, string HeroType)
         : base(Name, OpponentName, Level, HeroType) {
     
         }
@@ -11,11 +11,11 @@ namespace DesafioDeProjeto.src.entities
         {
             if( Life > 0 )
             {
-                if( Attack >= 25 && Attack <= 50 )
+                if( Attack >= 20 && Attack <= 55 )
                 {
                     return SpecialAttack(Attack);
                 }
-                else if( Attack < 25 && Attack > 0 )
+                else if( Attack < 20 && Attack > 0 )
                 {
                 return NormalAttack(Attack);
                 }
@@ -23,23 +23,26 @@ namespace DesafioDeProjeto.src.entities
             }
             else{
                 return ExceptionLife(Attack);
-            }
+            } 
         }
-        protected override string NormalAttack(int Normal)
+
+          protected override string NormalAttack(int Normal)
         {
             LifeScore(Normal);
-            return OpponentName + Message() + "Sword Attack that coast: " + Normal + " lifepoints";
+            return OpponentName + Message() + "Light Orb that coast: " + Normal + " lifepoints";
         }
 
         protected override string SpecialAttack(int Special)
         {
             LifeScore(Special);
-            return OpponentName + Message() + "Special Attack of " + Special + "\nLife: " + Life; 
+            return OpponentName + Message() + "Powerful Spell of " + Special + "\nLife: " + Life;
         }
+
         protected override string Message()
         {
-            return " was struck by a ";
+            return " was charmed by a ";
         }
+        
         protected override void LifeScore(int NewLife)
         {
             if( Life > 0)
@@ -50,11 +53,12 @@ namespace DesafioDeProjeto.src.entities
             {
                 NewLife = 0;
                 ExceptionLife(NewLife);
-            }            
+            }  
         }
+
         protected override string ExceptionLife(int ResultLife)
         {
-            return "You had a Bloody Death";
+             return "You had a Bloody Death!";
         }
     }
 }

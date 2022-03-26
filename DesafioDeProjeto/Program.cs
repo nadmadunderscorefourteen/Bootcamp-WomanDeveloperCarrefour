@@ -4,10 +4,13 @@ class Program {
 
     static void Main(string[] args) { 
 
-        Character character = new Knight("Arus", 23, "Knight");
+        Character character = new Knight("Arus", "Janica", 23, "Knight");
+        WhiteWizard wizard = new WhiteWizard("Janica", "Arus", 25, "White Wizard");
         
         
-        Console.WriteLine(character.HeroType);
-        Console.WriteLine(character.Attack(5));
+        Console.WriteLine("You are playing with: " + character.HeroType);
+        Console.WriteLine("You are playing with: " + wizard.HeroType);
+        Console.WriteLine(character.Attack(9));
+        Console.WriteLine(wizard.Attack(0));
     }
 }
