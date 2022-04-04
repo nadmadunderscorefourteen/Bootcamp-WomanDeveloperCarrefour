@@ -3,9 +3,10 @@ namespace DesafioDeProjeto.src.entities
     public class Knight : Character
     {
 
-        public Knight(string Name, string OpponentName, int Level, string HeroType)
-        : base(Name, OpponentName, Level, HeroType) {
-    
+        public Knight( string OpponentName, int Level, string HeroType)
+        : base(OpponentName, Level, HeroType)
+        {
+            base.Name = "Arus";
         }
         public override string Attack(int Attack)
         {

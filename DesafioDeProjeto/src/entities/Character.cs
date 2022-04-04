@@ -2,31 +2,34 @@ namespace DesafioDeProjeto.src.entities
 {
     public abstract class Character
     {
-        public string Name;
+        public string Name { get = Name; set = value; }
         public string OpponentName;
-
-        public int Life;
+        public int Life { get; set; }
         public int Level;
         public string HeroType;
-        public int Hp;
-        public int Mp;
+        public int Hp { get; set; }
+        public int Mp { get; set; }
 
-        public Character(string Name, string OpponentName, int Level, string HeroType){
-            this.Name = Name;
+        public Character(string OpponentName, int Level, string HeroType){
             this.OpponentName = OpponentName;
             Life = 500;
             this.Level = Level;
             this.HeroType = HeroType;
-            Hp = 0;
-            Mp = 0;
         }
 
         public abstract string Attack(int Attack);
-        protected abstract string NormalAttack(int Normal);
-        protected abstract string SpecialAttack(int Special);
-        protected abstract string Message();
-        protected abstract void LifeScore(int NewLife);
-        protected abstract string ExceptionLife(int ResultLife);
+        
+        public abstract string NormalAttack(int Normal);
+        
+        public abstract string SpecialAttack(int Special);
+        
+        public abstract string Message();
 
+        public abstract void LifeScore(int NewLife);
+
+        public string ExceptionLife(int ResultLife)
+        {
+             return "You had a Bloody Death!";
+        }
     }
 }

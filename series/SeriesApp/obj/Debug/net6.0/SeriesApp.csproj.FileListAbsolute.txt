@@ -1,0 +1,15 @@
+C:\projetos\BootWomanCarrefour\series\SeriesApp\bin\Debug\net6.0\SeriesApp.exe
+C:\projetos\BootWomanCarrefour\series\SeriesApp\bin\Debug\net6.0\SeriesApp.deps.json
+C:\projetos\BootWomanCarrefour\series\SeriesApp\bin\Debug\net6.0\SeriesApp.runtimeconfig.json
+C:\projetos\BootWomanCarrefour\series\SeriesApp\bin\Debug\net6.0\SeriesApp.dll
+C:\projetos\BootWomanCarrefour\series\SeriesApp\bin\Debug\net6.0\SeriesApp.pdb
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\SeriesApp.csproj.AssemblyReference.cache
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\SeriesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\SeriesApp.AssemblyInfoInputs.cache
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\SeriesApp.AssemblyInfo.cs
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\SeriesApp.csproj.CoreCompileInputs.cache
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\SeriesApp.dll
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\refint\SeriesApp.dll
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\SeriesApp.pdb
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\SeriesApp.genruntimeconfig.cache
+C:\projetos\BootWomanCarrefour\series\SeriesApp\obj\Debug\net6.0\ref\SeriesApp.dll
